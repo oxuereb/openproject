@@ -68,7 +68,7 @@ gem "rubytree", "~> 2.1.0"
 # Is to be removed once the referencing migrations have been squashed.
 gem "typed_dag", "~> 2.0.2", require: false
 
-gem "addressable", "~> 2.8.0"
+gem "addressable", "~> 2.9.0"
 
 # Remove whitespace from model input
 gem "auto_strip_attributes", "~> 2.5"
@@ -120,7 +120,7 @@ gem "csv", "~> 3.3"
 # provide compatible filesystem information for available storage
 gem "sys-filesystem", "~> 1.5.0", require: false
 
-gem "bcrypt", "~> 3.1.6"
+gem "bcrypt", "~> 3.1.22"
 
 gem "multi_json", "~> 1.15.0"
 gem "oj", "~> 3.16.0"
@@ -193,13 +193,13 @@ gem "rack-timeout", "~> 0.7.0", require: "rack/timeout/base"
 
 gem "nokogiri", "~> 1.18.1"
 
-gem "carrierwave", "~> 1.3.4"
+gem "carrierwave", "~> 2.2.6"
 gem "carrierwave_direct", "~> 2.1.0"
 gem "fog-aws"
 
 gem "aws-sdk-core", "~> 3.107"
 # File upload via fog + screenshots on travis
-gem "aws-sdk-s3", "~> 1.91"
+gem "aws-sdk-s3", "~> 1.208"
 
 gem "openproject-token", "~> 4.0"
 
